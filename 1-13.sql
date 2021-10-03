@@ -88,9 +88,5 @@ FROM PC pc
 LEFT JOIN Product p ON p.model = pc.model
 WHERE p.maker = 'A'
 
---- БД Корабли
-
---- Задание 14
---- Найдите класс, имя и страну для кораблей из таблицы Ships, имеющих не менее 10 орудий. 
 
 
